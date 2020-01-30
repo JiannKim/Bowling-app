@@ -1,45 +1,75 @@
-.login {
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+
+body {
+    margin: 120px;
+    padding: 10px;
+    height: 715px;
+    background-image: url(img/bg_Illu-01.png);
+    font-family: 'Nanum Gothic Coding', monospace;
+/*     background: linear-gradient(to top right, #b231f380, #e6882782); */
+}
+
+.main {
     border-radius: 10px;
-    background-color: #1111;
+    background-color: #11111111;
     box-shadow: rgba(0, 0, 0, .2) 0px 10px 20px,
      rgba(0, 0, 0, .025) 2px -1px 30px;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
 }
 
 .login__box {
-        display: grid;
-        padding: 10px;
+    display: grid;
+    padding: 10px;
+    color: #2525259e;
+    font-size: 17px;
+    font-weight: bold;
+/*     color: rgba(251, 241, 216, .5); */
 }
 
 .login__box input {
-    align-itmes: center;
+    align-items: center;
     padding: 15px;
     border-radius: 25px;
     border-bottom-left-radius: 0;
     border: none;
-    box-shadow: rgba(0, 0, 0, .2) 0px 10px 20px,
+/*     box-shadow: rgba(0, 0, 0, .2) 0px 10px 30px,
+     rgba(0, 0, 0, .025) 2px -1px 30px; */
+    background-image: linear-gradient(to right, #7b439780, #dc5d4682);
+}
+
+.login__box input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, .2) 0px 10px 30px,
      rgba(0, 0, 0, .025) 2px -1px 30px;
-    background-image: linear-gradient(to right, #7b4397d1, #dc5d46d1);
+    background-image: linear-gradient(to right, #7b4397c7, #dc5d46bf);
 }
 
 .login__box input::placeholder {
     color: #fff;
-    font-size: 14px;
-    font-weight: 500;
+/*     font-weight: 500; */
 }
 
-.login__column {
-    width: 300px;
+.login__column-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 70px;
+    margin: 20px 0;
 }
 
 .login__box-btn {
-    align-itmes: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    align-items: center;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 14px;
     border: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    background-image: linear-gradient(to right, #438797d1, #d3dc46d1);
+    background-color: rgba(202, 192, 176, 0.6);
+/*     background-image: linear-gradient(to right, #439778c9, #46dca5a1); */
 }
 
 .login__box-id,
