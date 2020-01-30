@@ -63,13 +63,17 @@ body {
     font-family: 'Nanum Gothic Coding', monospace;
     align-items: center;
     padding: 15px;
-    border-radius: 14px;
+    border-radius: 13px;
     border: none;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
     background-color: rgba(202, 192, 176, 0.6);
 /*     background-image: linear-gradient(to right, #439778c9, #46dca5a1); */
+}
+
+.login__box-btn:hover {
+    background-color: rgba(173, 165, 154, 0.64);
 }
 
 .login__box-id,
