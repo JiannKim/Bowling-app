@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>왕궁볼링장 로그인 페이지</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="login" method="post">
+            <div class="header">
+                <h1 class="title">볼링장</h1>
+            </div>
+            <div class="main">
+                <div class="login__column login">
+                    <div class="login__box">
+                        <span class="login__box-id">
+                            아이디
+                        </span>
+                        <span class="login__box-id">
+                            <input type="text" name="aId" placeholder="아이디를 입력하세요">
+                        </span>
+                    </div>
+                    <div class="login__box">
+                        <span class="login__box-id">
+                            비밀번호
+                        </span>
+                        <span class="login__box-pw">
+                            <input type="password" name="aPw" placeholder="비밀번호를 입력하세요">
+                        </span>
+                    </div>
+                </div>
+                <div class="login__column login">
+                    <div class="login__button login__btn">
+                        <input class="login__box-btn" type="submit" value="로그인" />
+                    </div>
+                    <div class="login__button join__btn">
+                        <input class="login__box-btn" type="button" value="회원가입" onClick="location.href='joinForm'"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- <a href="joinForm">회원 가입</a> -->
+        <h2>${resultMessage}</h2>
+        <!-- id가 틀렸습니다 알림창 -->
+    </body>
+</html>
