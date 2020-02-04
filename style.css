@@ -23,31 +23,32 @@ body {
     display: grid;
     padding: 10px;
     color: #2525259e;
-    font-size: 17px;
+    font-family: Gothic;
+    font-size: 18px;
     font-weight: bold;
-/*     color: rgba(251, 241, 216, .5); */
 }
 
 .login__box input {
     align-items: center;
     padding: 15px;
-    border-radius: 25px;
-    border-bottom-left-radius: 0;
+    border-radius: 3px;
     border: none;
 /*     box-shadow: rgba(0, 0, 0, .2) 0px 10px 30px,
      rgba(0, 0, 0, .025) 2px -1px 30px; */
-    background-image: linear-gradient(to right, #7b439780, #dc5d4682);
+    background-image: linear-gradient(to bottom, #ffffff5c, #c5c5c569);
 }
 
 .login__box input:focus {
-    outline: none;
-    box-shadow: rgba(0, 0, 0, .2) 0px 10px 30px,
-     rgba(0, 0, 0, .025) 2px -1px 30px;
-    background-image: linear-gradient(to right, #7b4397c7, #dc5d46bf);
+/*     outline: none; */
+    border: 1px solid #a015b1a1;
+    box-shadow: rgba(0, 0, 0, .2) 0px 5px 20px,
+     rgba(0, 0, 0, .025) 1px -1px 20px;
+    background-image: linear-gradient(to bottom, #ffffff5c, #b3b3b3bf);
 }
 
 .login__box input::placeholder {
-    color: #fff;
+    color: #888;
+    opacity: .5;
 /*     font-weight: 500; */
 }
 
@@ -56,24 +57,22 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-right: 70px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .login__box-btn {
     font-family: 'Nanum Gothic Coding', monospace;
     align-items: center;
     padding: 15px;
-    border-radius: 13px;
+    border-radius: 10px;
     border: none;
     color: #fff;
     font-size: 14px;
-    font-weight: 600;
-    background-color: rgba(202, 192, 176, 0.6);
-/*     background-image: linear-gradient(to right, #439778c9, #46dca5a1); */
+    background-image: linear-gradient(to bottom, #3c3c3cc2, #000000bf); */
 }
 
 .login__box-btn:hover {
-    background-color: rgba(173, 165, 154, 0.64);
+    background-color: rgba(208, 204, 204, 0.64);
 }
 
 .login__box-id,
